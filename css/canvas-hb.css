@@ -1,0 +1,133 @@
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background: url("../images/hbbj.png") no-repeat center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container{
+    width:600px;
+    height:600px;
+    margin:20px auto;
+    border-radius: 5px;
+    position: relative;
+}
+.menu{
+    width:160px;
+    text-align: center;
+    line-height:36px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    position: absolute;
+    top:96px;
+    left: 80px;
+}
+.parent{
+    width:100%;
+    position: absolute;
+    left:0;
+}
+.wenjian{
+    top: 0;
+}
+.huatu{
+    top: 70px;
+}
+.leixing{
+    top: 130px;
+}
+.tcys{
+    top: 190px;
+    left: -20px;
+    transform: rotateZ(5deg);
+}
+.xtys{
+    top: 260px;
+    left: -20px;
+    transform: rotateZ(-5deg);
+}
+.xtcx{
+    width: 165px;
+    line-height: 70px;
+    top: 320px;
+    left: -60px;
+}
+.xiangpi{
+    width: 140px;
+    top: 420px;
+    left: -30px;
+    transform: rotateZ(-5deg);
+}
+.xuanze{
+    width: 140px;
+    top: 470px;
+    left: -10px;
+    transform: rotateZ(-5deg);
+}
+.son{
+    width:100%;
+    display:none;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    z-index: 2;
+}
+.xiangpi .son{
+    width:110%;
+    left: 140px;
+}
+.son li{
+    /*background: rgb(152,213,130);*/
+    /*border-bottom:1px solid white;*/
+    transition:all 1s ease;
+    background: url("../images/btn-bg.svg") no-repeat center;
+    background-size: cover;
+}
+.son li:hover{
+    transform: scale(0.96,0.96);
+}
+.fillColor,.lineColor,.bg{
+    background: url("../images/btn-bg.svg") no-repeat center;
+    background-size: cover;
+}
+.box{
+    width: 100%;
+    height:310px;
+    position: absolute;
+    bottom: 86px;
+    left: 10px;
+}
+.copy{
+    width:100%;
+    height:320px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    -webkit-user-select: none;
+}
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    background: #ffffff;
+}
+.xp{
+    width:10px;
+    height:10px;
+    border:1px solid black;
+    position:absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.selectarea{
+    border: 1px dashed black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
